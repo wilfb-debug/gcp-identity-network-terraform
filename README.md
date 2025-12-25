@@ -14,3 +14,13 @@ This project demonstrates designing and deploying a secure, identity-first cloud
 - Least-privilege IAM
 - Network segmentation
 - Repeatable infrastructure via Terraform
+
+## Identity Model
+
+This project separates identities by responsibility:
+
+- Human identity: used for administrative setup only
+- Terraform service account: used to provision infrastructure via Infrastructure as Code
+- Runtime service account: used by workloads to access dependent services
+
+This separation enforces least privilege and reduces blast radius.
