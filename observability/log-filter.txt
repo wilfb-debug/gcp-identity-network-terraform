@@ -1,0 +1,17 @@
+ER EXPERIENCE
+
+AppLearn — Software (Digital Adoption)
+• Engaged enterprise stakeholders to identify operational challenges and position SaaS solutions.
+
+Kintec Recruitment — Oil & Gas
+• Assessed technical suitability of candidates against regulatory and project requirements.
+Logs Explorer Filter – STEP3 Observability
+
+resource.type="gce_instance"
+resource.labels.instance_name="private-vm-1"
+jsonPayload.message:("STEP3_TEST" OR "CONSOLE_TEST")
+
+Purpose:
+- Verifies application logs from private VM
+- Confirms logs are ingested into Cloud Logging
+- Used as the basis for log-based metrics and alerts
