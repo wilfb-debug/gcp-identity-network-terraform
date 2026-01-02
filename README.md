@@ -1,6 +1,25 @@
 HEAD
 # Identity-First Cloud Network (Terraform) + Observability
 
+## Project Scope (Identity-First Infrastructure)
+
+This project demonstrates an identity-first cloud architecture on Google Cloud
+built entirely with Terraform.
+
+### What this project proves
+- No public IP access to workloads
+- Access controlled by IAM identities, not networks
+- Infrastructure deployed using least-privilege service accounts
+- Private VM access via IAP (no SSH from the internet)
+- Observability implemented using Cloud Logging and Monitoring
+
+### Architecture Components
+- VPC with private subnet
+- Private Compute Engine VM
+- IAP-based access (identity-aware proxy)
+- Centralized Cloud Logging
+- Log-based metrics and alerting
+
 This project builds an identity-first networking pattern on Google Cloud using Terraform, then validates telemetry (logs) from a 
 private VM and sets up alerting.
 
