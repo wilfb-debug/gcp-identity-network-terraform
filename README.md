@@ -51,6 +51,8 @@ private VM and sets up alerting.
 
 # Identity-First Cloud Architecture with Terraform (GCP)
 
+![Identity-First Cloud Architecture](architecture/identity-first-architecture.png)
+
 This project demonstrates designing and deploying a secure, identity-first cloud architecture on Google Cloud Platform using Terraform.
 
 ## Key Concepts
